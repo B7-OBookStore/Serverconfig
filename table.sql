@@ -53,6 +53,7 @@ CREATE TABLE Book(
   BookTitle NVARCHAR(256), -- 書籍名
   Writer NVARCHAR(256), -- 著者
   Publisher NVARCHAR(256), -- 出版社
+  GoogleID CHAR(12), -- GoogleBooksのID
   PRIMARY KEY (JANCode),
   FOREIGN KEY (JANCode) REFERENCES Item(JANCode)
 ) ENGINE = InnoDB;
