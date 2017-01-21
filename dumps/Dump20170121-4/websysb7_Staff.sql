@@ -1,0 +1,37 @@
+-- MySQL dump 10.13  Distrib 5.7.12, for Win64 (x86_64)
+--
+-- Host: localhost    Database: websysb7
+-- ------------------------------------------------------
+-- Server version	5.7.12-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Dumping data for table `Staff`
+--
+
+LOCK TABLES `Staff` WRITE;
+/*!40000 ALTER TABLE `Staff` DISABLE KEYS */;
+INSERT INTO `Staff` VALUES (0,0,'外商太郎',NULL),(1001,1,'石蕗クミコ',NULL),(1002,1,'古市百花',NULL),(1003,1,'平沢倫子',NULL),(1101,1,'松島花梨',NULL),(1102,1,'小池直美',NULL),(1103,1,'川島長吉',NULL),(1104,1,'川野勝子',NULL),(1105,1,'工藤音葉',NULL),(1106,1,'杉原隆文',NULL),(1107,1,'堀内小枝子',NULL),(1108,1,'奈良優奈',NULL),(1501,1,'豊田花梨','総務課'),(1502,1,'門田喜太郎 ','総務課'),(1601,1,'前原伸','経理課'),(1602,1,'黒沢米子','経理課'),(1701,1,'田崎あさひ','情報システム課'),(1702,1,'双葉杏','情報システム課'),(2001,2,'陽本綴',NULL),(2002,2,'中里瑞貴',NULL),(2101,2,'香坂斎',NULL),(2102,2,'久米美穂',NULL),(2103,2,'山城一仁',NULL),(2104,2,'新田節子',NULL),(2105,2,'木田孝義',NULL),(2106,2,'平賀遙香',NULL),(3001,3,'羽名しおり',NULL),(3002,3,'本間俊樹',NULL),(3101,3,'桜田健太郎',NULL),(3102,3,'小谷亜矢子',NULL),(3103,3,'野本雅博',NULL),(3104,3,'高尾量子 ',NULL),(3105,3,'江藤典大',NULL),(3106,3,'広瀬真澄',NULL),(4001,4,'三反英太',NULL),(4101,4,'西沢三枝子 ',NULL),(4102,4,'塩谷空',NULL),(4103,4,'松村孝宏',NULL),(4104,4,'益子沙樹',NULL),(4105,4,'坪田広明',NULL),(5001,5,'柳田雪絵',NULL),(5101,5,'高井花楓',NULL),(5102,5,'栗田友菜',NULL),(5103,5,'菅井汎平',NULL),(5104,5,'森田真里',NULL),(5105,5,'三木良昭',NULL),(6001,6,'長谷川萌美',NULL),(6101,6,'坂本結月',NULL),(6102,6,'大谷莉桜',NULL),(6103,6,'岩沢彦太郎',NULL),(6104,6,'早坂恒雄',NULL),(6105,6,'仲村司',NULL);
+/*!40000 ALTER TABLE `Staff` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2017-01-21 18:47:44
