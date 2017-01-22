@@ -42,7 +42,7 @@ CREATE TABLE Staff(
 -- 商品テーブル
 CREATE TABLE Item(
   JANCode CHAR(13) NOT NULL, -- JANコード
-  Price INTEGER NOT NULL, -- 単価
+  Price INTEGER, -- 単価
   Discount INTEGER, -- 割引額
   PRIMARY KEY (JANCode)
 ) ENGINE = InnoDB;
@@ -55,7 +55,8 @@ CREATE TABLE Book(
   Publisher NVARCHAR(256), -- 出版社
   GoogleID CHAR(12), -- GoogleBooksのID
   PRIMARY KEY (JANCode),
-  FOREIGN KEY (JANCode) REFERENCES Item(JANCode)
+  FOREIGN KEY (JANCode) REFERENCES Item(JANCode),
+  UNIQUE (GoogleID)
 ) ENGINE = InnoDB;
 
 -- 他商品テーブル
